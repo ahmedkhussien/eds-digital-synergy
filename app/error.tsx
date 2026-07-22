@@ -23,7 +23,7 @@ export default function Error({
         </div>
         <h2 className="text-2xl font-bold text-gray-900">Application Error</h2>
         <p className="text-gray-600 text-sm">
-          An unexpected error occurred. The EDS Echo Network Operations Center has been notified.
+          An unexpected error occurred. The EDS Eco Network Operations Center has been notified.
         </p>
         <button
           onClick={() => reset()}

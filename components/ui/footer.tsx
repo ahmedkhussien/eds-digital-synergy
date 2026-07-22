@@ -15,7 +15,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <Logo />
             </div>
             <div className="text-sm text-gray-600">
-              &copy; {new Date().getFullYear()} EDS Echo. All rights reserved.
+              &copy; {new Date().getFullYear()} EDS Eco. All rights reserved.
             </div>
           </div>
 

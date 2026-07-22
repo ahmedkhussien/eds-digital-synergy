@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Logo from "./logo";
 
 export default function Header() {
@@ -26,14 +25,6 @@ export default function Header() {
 
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
-            <li>
-              <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50 transition duration-150"
-              >
-                Login
-              </Link>
-            </li>
             <li>
               <a
                 href="#consultation"

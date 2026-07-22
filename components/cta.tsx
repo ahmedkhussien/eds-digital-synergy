@@ -119,7 +119,7 @@ export default function Cta() {
                 Operational Synergy
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
-                EDS Echo
+                EDS Eco
               </h3>
               <p className="text-gray-600 text-[15px] leading-relaxed">
                 Connect with our engineers directly or reach out to our Network Operations Center (NOC) for emergency system interventions.

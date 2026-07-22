@@ -12,7 +12,7 @@ export default function LargeTestimonial() {
 
             {/* Statement */}
             <p className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 leading-relaxed max-w-4xl mx-auto">
-              “In an era of rapid digital transformation, disconnected software and traditional maintenance are no longer enough for enterprise growth. At <span className="text-blue-600">EDS Echo</span>, we bridge all your digital assets—from cloud servers and ERP systems to AI tools, networks, and cybersecurity—into a single, unified ecosystem that operates with complete harmony and zero operational friction.”
+              “In an era of rapid digital transformation, disconnected software and traditional maintenance are no longer enough for enterprise growth. At <span className="text-blue-600">EDS Eco</span>, we bridge all your digital assets—from cloud servers and ERP systems to AI tools, networks, and cybersecurity—into a single, unified ecosystem that operates with complete harmony and zero operational friction.”
             </p>
 
             {/* Divider decoration */}
