@@ -12,6 +12,18 @@
   --font-inter: Inter, sans-serif;
   --font-mono: Roboto Mono, monospace;
 
+  --color-primary: #22368C;
+  --color-secondary: #2578C4;
+  --color-accent: #26B2E5;
+  --color-dark: #333333;
+  --color-bg-light: #F8FBFD;
+
+  --color-blue-500: #26B2E5;
+  --color-blue-600: #26B2E5;
+  --color-blue-700: #1fa2d1;
+  --color-blue-300: #26B2E5;
+  --color-blue-900: #0e1e52;
+
   --text-xs: 0.75rem;
   --text-xs--line-height: 1.5;
   --text-sm: 0.875rem;
@@ -203,5 +215,24 @@
   ::backdrop,
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
+  }
+
+  body {
+    background-color: var(--color-bg-light);
+    color: var(--color-dark);
+  }
+
+  /* Make sure text on cyan buttons is dark for WCAG accessibility contrast */
+  .btn.bg-blue-600,
+  .btn.from-blue-600,
+  .btn-sm.bg-blue-600,
+  .btn.hover\:bg-blue-700:hover,
+  .btn-sm.hover\:bg-blue-700:hover {
+    color: #0a1128 !important;
+  }
+
+  .btn.bg-blue-600 *,
+  .btn.from-blue-600 * {
+    color: #0a1128 !important;
   }
 }

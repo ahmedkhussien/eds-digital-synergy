@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "EDS Echo — Elite Digital Synergy | Integrated Enterprise Operating Systems",
+  description: "EDS Echo (Elite Digital Synergy) bridges all your digital assets—from cloud servers and ERP systems to AI tools, networks, and cybersecurity—into a single, unified enterprise operating system.",
 };
 
 import Hero from "@/components/hero-home";

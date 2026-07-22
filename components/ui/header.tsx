@@ -11,23 +11,36 @@ export default function Header() {
             <Logo />
           </div>
 
+          {/* Desktop Navigation Links */}
+          <nav className="hidden md:flex items-center gap-6">
+            <a href="#services" className="text-sm font-bold text-gray-600 hover:text-primary transition-colors duration-150">
+              Services
+            </a>
+            <a href="#methodology" className="text-sm font-bold text-gray-600 hover:text-primary transition-colors duration-150">
+              Methodology
+            </a>
+            <a href="#consultation" className="text-sm font-bold text-gray-600 hover:text-primary transition-colors duration-150">
+              Contact NOC
+            </a>
+          </nav>
+
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
                 href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50"
+                className="btn-sm bg-white text-gray-800 shadow-sm hover:bg-gray-50 transition duration-150"
               >
                 Login
               </Link>
             </li>
             <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow-sm hover:bg-gray-900"
+              <a
+                href="#consultation"
+                className="btn-sm bg-blue-600 text-white shadow-sm hover:bg-blue-700 transition duration-150"
               >
-                Register
-              </Link>
+                Book Consultation
+              </a>
             </li>
           </ul>
         </div>
